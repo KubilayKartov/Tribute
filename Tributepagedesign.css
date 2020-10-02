@@ -1,5 +1,31 @@
-h1
-{
-text-align: : center;
-font-style: Serif  
+h1{
+text-align:center;
+border: 2px solid white;
+font-style: Serif
+color:white;
+font-family: 'Russo One', sans-serif;
+font-size: 2em;
+padding: 5px;
+margin-top: 100px;
+border-radius: 10px;
+margin: auto;
+}
+
+html{
+background: url("bild.jpg") no-repeat center fixed;
+background-size: cover;
+color:white;
+font-family: 'Russo One', sans-serif;
+padding: 5px;
+border-radius: 10px;
+}
+
+p{
+color:white;
+font-family: 'Russo One', sans-serif;
+width: 30%;
+padding: 10px;
+border: 2px solid white;
+margin-left: 620px;
+border-radius: 10px;
 }
