@@ -7,14 +7,17 @@ font-size: 2em;
 padding: 5px;
 border-radius: 10px;
 border: 2px solid white;
-margin-top: 100px;
-margin-left: 850px;
-margin-right: 850px;
+margin-top: 50px;
+margin-left: 800px;
+margin-right: 800px;
 }
 
-html{
-background: url("bild.jpg") no-repeat center fixed;
-background-size: cover;
+.whole{
+background-image: url("blackpicture.jpg"), url("bild.jpg");
+background-repeat: no-repeat;
+background-size: 50% 100%;
+position: absolute; top: 0; left: 0; bottom: 0;
+
 }
 
 .about{
@@ -26,4 +29,9 @@ border-style: solid;
 margin-left: 620px;
 border-radius: 10px;
 text-shadow: 2px;
+}
+
+.left{
+margin-right: -1000px;
+
 }
