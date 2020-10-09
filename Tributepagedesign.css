@@ -1,37 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
 h1{
-text-align:center;
+
 color:white;
-font-style: Serif;
-font-family: 'Russo One', sans-serif;
+
+text-align: center;
 font-size: 2em;
-padding: 5px;
+
+padding: 10px;
+
 border-radius: 10px;
 border: 2px solid white;
-margin-top: 50px;
-margin-left: 800px;
+
+margin-top: 80px;
+margin-left: 330px;
 margin-right: 800px;
 }
 
-.whole{
+.bg{
 background-image: url("blackpicture.jpg"), url("bild.jpg");
-background-repeat: no-repeat;
 background-size: 50% 100%;
-position: absolute; top: 0; left: 0; bottom: 0;
-
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
 }
 
-.about{
+.text{
+text-align: center;
+position: relative;
 color:white;
-font-family: 'Russo One', sans-serif;
-width: 30%;
-padding: 10px;
+width: 600px;
+padding: 15px;
 border-style: solid;
-margin-left: 620px;
-border-radius: 10px;
+border-radius: 50px;
 text-shadow: 2px;
-}
+top: 70px;
+bottom: 70px;
+left: 100px;
 
-.left{
-margin-right: -1000px;
 
 }
