@@ -5,6 +5,11 @@
 
 h1{
 
+  font-family: 'Sofia';
+  font-style: normal;
+  font-weight: 400;
+    text-shadow:5px 5px 5px blue;
+
 color:white;
 
 text-align: center;
@@ -20,9 +25,13 @@ margin-left: 370px;
 margin-right: 800px;
 }
 
+body{
+  background-image: url("kanye.gif");
+}
+
 .bg{
 width: 50%;
-background-color: black;
+background-image: url("grad.jpg");
 position: absolute;
 top: 0;
 left: 0;
@@ -31,6 +40,15 @@ bottom: 0;
 }
 
 .text{
+
+  font-family: 'Sofia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  text-shadow:5px 5px 5px blue;
+
+
+
 text-align: center;
 position: relative;
 color:white;
@@ -42,6 +60,4 @@ text-shadow: 2px;
 top: 70px;
 bottom: 70px;
 left: 158px;
-
-
 }
