@@ -5,8 +5,7 @@
 
 h1{
 
-  font-family: 'Sofia';
-  font-style: normal;
+font-family: RobotoDraft;
   font-weight: 400;
     text-shadow:5px 5px 5px blue;
 
@@ -41,8 +40,7 @@ bottom: 0;
 
 .text{
 
-  font-family: 'Sofia';
-  font-style: normal;
+  font-family: RobotoDraft;
   font-weight: 400;
   font-size: 17px;
   text-shadow:5px 5px 5px blue;
