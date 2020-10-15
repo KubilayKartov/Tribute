@@ -5,9 +5,9 @@
 
 h1{
 
-font-family: RobotoDraft;
-  font-weight: 400;
-    text-shadow:5px 5px 5px blue;
+font-family: Arial;
+font-weight: 400;
+text-shadow:5px 5px 5px blue;
 
 color:white;
 
@@ -20,32 +20,29 @@ border-radius: 5px;
 border: 2px solid white;
 
 margin-top: 80px;
-margin-left: 370px;
-margin-right: 800px;
+margin-left: -600px;
 }
 
 body{
-  background-image: url("kanye.gif");
+background-image: url("grad.jpg");
+width: 200px;
 }
 
 .bg{
-width: 50%;
-background-image: url("grad.jpg");
+background-image: url("kanye.gif");
 position: absolute;
+width: 50%;
 top: 0;
-left: 0;
+left: 960px;
 bottom: 0;
-
 }
 
 .text{
 
-  font-family: RobotoDraft;
-  font-weight: 400;
-  font-size: 17px;
-  text-shadow:5px 5px 5px blue;
-
-
+font-family: Arial;
+font-weight: 200;
+font-size: 16px;
+text-shadow:5px 5px 5px blue;
 
 text-align: center;
 position: relative;
@@ -57,5 +54,10 @@ border-radius: 50px;
 text-shadow: 2px;
 top: 70px;
 bottom: 70px;
-left: 158px;
+left: -800px;
+}
+
+.insta{
+  right: 70px;
+  bottom: 100px;
 }
