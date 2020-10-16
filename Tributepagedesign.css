@@ -31,10 +31,12 @@ width: 200px;
 .bg{
 background-image: url("kanye.gif");
 position: absolute;
-width: 50%;
+width: 100%;
 top: 0;
 left: 960px;
 bottom: 0;
+
+background-position: center;
 }
 
 .text{
@@ -58,6 +60,8 @@ left: -800px;
 }
 
 .insta{
-  right: 70px;
-  bottom: 100px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+
 }
