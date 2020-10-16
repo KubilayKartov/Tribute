@@ -1,1 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+*{
+padding: 0;
+margin: 0;
+}
 
+h1{
+font-family: 'Pirata One', cursive;
+font-weight: 400;
+color:white;
+font-size: 4em;
+text-align: center;
+text-shadow: 7px 7px 5px black;
+position: absolute;
+left: 165px;
+top: 150px;
+text-decoration: underline;
+}
+
+p{
+font-family: 'Pirata One', cursive;
+font-weight: 400;
+color:white;
+font-size: 1.25em;
+text-align: center;
+text-shadow: 7px 7px 5px black;
+position: relative;
+width: 25%;
+top: 250px;
+left: 125px;
+}
+
+body{
+background-color: black;
+position: absolute;
+}
+
+li1{
+font-family: 'Pirata One', cursive;
+font-size: 2em;
+text-align: center;
+font-weight: 400;
+color:white;
+left: 4%;
+top: 50px;
+position: absolute;
+}
+
+li2{
+font-family: 'Pirata One', cursive;
+font-size: 2em;
+text-align: center;
+font-weight: 400;
+color:white;
+left: 10%;
+top: 50px;
+position: absolute;
+}
+
+li3{
+font-family: 'Pirata One', cursive;
+font-size: 2em;
+text-align: center;
+font-weight: 400;
+color:white;
+left: 16%;
+top: 50px;
+position: absolute;
+}
+
+
+a{
+color: white;
+}
