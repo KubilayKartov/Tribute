@@ -74,9 +74,11 @@ color: white;
 
 .vertical{
 border-left: 7px solid white;
-height: 1080px;
+height: 1100px;
 position: absolute;
 left: 50%;
+top: 0;
+bottom: 0;
 }
 
 .picture{
