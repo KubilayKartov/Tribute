@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+/*
+
+makes it so there are not gaps
+
+*/
+
 *{
   padding: 0;
   margin: 0;
