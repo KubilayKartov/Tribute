@@ -21,7 +21,8 @@ text-decoration: underline;
 
 text-align: center / middle
 
-position: relative; effected element, wished
+Position relative moves the wished element to 
+wished place but it gets affected by default position/place.
 
 */
 
@@ -41,6 +42,9 @@ left: 11%;
 /*
 
 no white space
+
+With position fixed i can choose how i want to move an element compared to the webpage. 
+So even if i scroll down on the website the element will have the same position/place
 
 */
 
@@ -94,9 +98,10 @@ color: white;
 
 /*
 
-border = line
+I make a border and then give it enough height and 
+with the help with top:0 and bottom:0 so it covers the whole screen
 
-top:0 bottom:0 = across screen
+top:0 bottom:0 = makes it so the vertical line has no gaps, covers up the screen vertically.
 
 */
 
@@ -111,7 +116,8 @@ bottom: 0;
 
 /*
 
-right:0 bottom:0 top:0 + width: 50% = picture left side
+right:0 bottom:0 top:0 + width: 50% = makes it so the picture is completely 
+to the right side because of right:0 and takes up 50% of the screen because of width: 50%
 
 */
 
